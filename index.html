@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Красников</title>
+    <style>
+      *{
+        font-family: verdana, sans-serif;
+        font-size: 18px;
+      }
+      body {
+        margin: 0;
+      }
+      canvas {
+        display: block;
+      }
+      b {
+        background: moccasin;
+        border-radius: 5px;
+        padding: 0 4px;
+      }
+    </style>
+  </head>
+  <body>
+    <script type="module" src="./main.js"></script>
+    <div style="position: fixed; left: 0; bottom: 0; display: flex; flex-direction: column;">
+      
+      <span><b>W/S</b> вперед/назад по оси OX</span>
+      <span><b>A/D</b> влево/вправо по оси OY</span>
+      <span><b>Space/Shift</b> вверх/вниз по оси OZ</span>
+      <span><b>CapsLock</b> замедлить скорость</span>
+      <span><b>G</b> включить гравитацию</span>
+      <span><b>Enter</b> прыжок</span>
+    </div>
+    <div style="position: fixed; right: 0; bottom: 0; display: flex; flex-direction: column; text-align: right;">
+      <span>Numpad</span>
+      <span>увеличить масштаб <b>+</b></span>
+      <span>уменьшить масштаб <b>-</b></span>
+      <span>вращение вокруг оси OX <b>5/8</b></span>
+      <span>вращение вокруг оси OY <b>4/6</b></span>
+      <span>вращение вокруг оси OZ <b>7/9</b></span>
+      <span>вернуться к исходному положению <b>0</b></span>
+      <span>вращение вокруг осей/геометрического центра <b>.</b></span>
+    </div>
+  </body>
+</html>
